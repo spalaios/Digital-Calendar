@@ -1,0 +1,79 @@
+html{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	// width: 100%;
+	// border: 5px solid green;
+}
+body{
+	// background-image: url(img/afternoon.jpg);
+
+	height: 100%;
+	// background:honeydew;
+	// border: 5px solid coral;
+}
+#intro{
+	display: flex;
+	justify-content:center;
+	margin-top: 55px;
+
+}
+#container{
+	// border: 1px solid;
+	width: 950px;
+	height: 500px;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	// justify-content:center;
+
+	
+}
+#hourcontainer{
+	// border: 1px solid black;
+	margin-top: 70px;
+	width: 650px;
+	height: 150px;
+	display: flex;
+	color: rgba(255,255,255,0.3);
+
+}
+#datecontainer{
+	// border: 1px solid black;
+	margin-top: 50px;
+	width: 850px;
+	height: 150px;
+	display: flex;
+	color: rgba(255,255,255,0.3);
+
+}
+.circles{
+	width: 150px;
+	height: 150px;
+	background: rgba(66,134,244,0.1);
+	margin: auto;
+	border-radius: 100%;
+	font-size: 90px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+.squares{
+	width: 150px;
+	height: 150px;
+	// background: rgba(66,134,244,0.1);
+	margin: auto;
+	border-radius: 5px;
+	font-size: 90px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+#greeting{
+	// border:1px solid black;
+	width: 700px;
+	height: 120px;
+	text-align: center;
+	// line-height: 120px;
+	font-size: 26px;
+}
